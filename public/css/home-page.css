@@ -352,6 +352,13 @@
     background: #112137;
     border-radius: 50%;
 }
+
+.container .hover-border {
+    width: 32px;
+    height: 3px;
+    margin-top: 3px;
+    background: #041E42;
+}
 /* Pagination end */
 
 .header-frame {
@@ -497,13 +504,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
-}
-
- .header-frame .box-left .hover-border {
-    width: 32px;
-    height: 3px;
-    margin-top: 3px;
-    background: #041E42;
 }
 
 .header-frame .header-box .box-right {
@@ -817,3 +817,152 @@
     line-height: normal;
     background: #e5edff;
 }
+/* Ending Adv section */
+
+/* Starting Special-product section */
+.spec-product-frame {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.spec-product-frame .container {
+    flex-direction: column;
+}
+
+.container .spec-product-wrapper {
+    position: relative;
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.spec-product-wrapper .spec-product-left {
+    position: relative;
+    padding: 30px;
+    width: 664px;
+    height: 368px;
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #F3F5F6;
+}
+
+.spec-product-left .spec-product-left-content {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.spec-product-left-content span {
+    color:  #041E42;
+
+    font-family: "Jost";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.spec-product-left-content p {
+    color: #041E42;
+
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.spec-product-left-content a {
+    color: #041E42;
+
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; 
+}
+
+.spec-product-left img {
+    position: absolute;
+    width: 322px;
+    height: 309px;
+    right: 5%;
+}
+
+.spec-product-wrapper .small-product-wrapper {
+    margin-left: 30px;
+    width: 620px;
+    height: 368px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.small-product-wrapper .small-product-box {
+    padding: 30px;
+    width: 293px;
+    height: 170px;
+    border-radius: 6px;
+    background: #F3F5F6;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.small-product-box:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.small-product-box .small-product-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-product-content strong {
+    color: #041E42;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.small-product-content span {
+    color: #626974;
+
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.small-product-box img {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+.small-product-box .bluetooth-airpods {
+    position: absolute;
+    right: 22px;
+    top: 81px;
+}
+/* Ending Special-product section */
